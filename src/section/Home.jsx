@@ -112,6 +112,7 @@ const Home = () => {
                 "
               >View My Work</a>
               <a href="https://drive.google.com/file/d/1CZBH2-dGMnjWw-W_dzEyPc3f2rESwQhy/view?usp=sharing"
+                 target="_blank"
                 className="px-6 py-3 rounded-full text-lg font-medium text-black
                 bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all
                 "
