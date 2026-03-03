@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react"
 import ParticlesBackground from "../components/ParticlesBackground"
 import { motion } from "framer-motion"
 import { FaGithub, FaLinkedin, FaX, FaXTwitter } from "react-icons/fa6"
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 import Lottie from "lottie-react";
 import contactAnim from "../assets/customersupport.json"; 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
   const social=[
     {Icon: FaLinkedin, label:"LinkedIn", href:"https://linkedin.com/in/hemeshhere"},
     {Icon: FaGithub, label:"GitHub", href:"https://github.com/hemeshhere"},
+    {Icon: SiLeetcode, label:"Leetcode", href:"https://leetcode.com/u/hemeshhere/"},
+    {Icon: SiCodeforces, label:"Codeforces", href:"https://codeforces.com/profile/hemeshhere"},
   ]
   const glowVariant={
     initial:{scale:1, y:0, filter:"drop-shadow(0 0 0 rgba(0,0,0,0))"},
@@ -111,7 +114,7 @@ const Home = () => {
                 bg-white hover:scale-105 transition-all
                 "
               >View My Work</a>
-              <a href="https://drive.google.com/file/d/1CZBH2-dGMnjWw-W_dzEyPc3f2rESwQhy/view?usp=sharing"
+              <a href="https://drive.google.com/file/d/15ZDgce56p7TxKz52Fan61wmefxVrIUrI/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full text-lg font-medium text-black

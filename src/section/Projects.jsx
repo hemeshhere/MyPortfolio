@@ -5,6 +5,8 @@ import img2 from '../assets/img2.JPG'
 import photo2 from '../assets/photo2.PNG'
 import img3 from '../assets/img3.JPG'
 import photo3 from '../assets/photo3.PNG'
+import img4 from '../assets/img4.jpeg'
+import photo4 from '../assets/photo4.jpeg'
 import { useMotionValueEvent, useScroll } from "framer-motion"
 import { motion, AnimatePresence } from "framer-motion"
 //check whether the device is mobile or not
@@ -28,6 +30,13 @@ const Projects = () => {
   //projects to show in project section
   const projects = useMemo(
     () => [
+      {
+        title: "Expense Merge",
+        link: "",
+        bgColor: isMobile ? "#002C47":"#1A3215",
+        image: isMobile ? photo4 : img4,
+        githubLink: "https://github.com/hemeshhere/Expense-App",
+      },
       {
         title: "AiValuation",
         link: "https://ai-valuation.vercel.app/",
