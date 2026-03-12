@@ -114,7 +114,7 @@ const Home = () => {
                 bg-white hover:scale-105 transition-all
                 "
               >View My Work</a>
-              <a href="https://drive.google.com/file/d/15ZDgce56p7TxKz52Fan61wmefxVrIUrI/view?usp=sharing"
+              <a href="https://drive.google.com/file/d/1gpljBAvf5AHzpL19kXOM-PSv5TS2q7Ma/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full text-lg font-medium text-black

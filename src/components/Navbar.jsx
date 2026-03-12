@@ -61,26 +61,70 @@ export default function Navbar(){
           {/* <img src={Logo} alt="logo" className="h-12 w-10"/> */}
           
         </div>
-        <div className="block lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
+        <div className="hidden lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:flex lg:items-center">
+          <a
+            href="#home"
+            className="relative top-0.5 px-3 py-1 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            About
+          </a>
+          <a
+            href="#skills"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Skills
+          </a>
+          <a
+            href="#projects"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Projects
+          </a>
+          <a
+            href="#contact"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Contact Me
+          </a>
+        </div>
+        <div className="block ml-auto lg:ml-0">
           <button 
             onClick={()=> setMenuOpen(true)}
             className="text-white text-3xl focus:outline-none"
           >
             <FiMenu/>
           </button>
-        </div>
-        <div className="hidden lg:block">
-          <a
-            href="#contact"
-            className="relative top-0.5 px-6 py-1 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
-            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
-            transition-all duration-500 ease-out
-            hover:from-white/20 hover:via-white/10 hover:to-white/20
-            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
-          >
-            Reach Out
-          </a>
         </div>
       </nav>
     <OverlayMenu isOpen={menuOpen} onClose={()=>setMenuOpen(false)}/>
