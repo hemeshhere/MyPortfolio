@@ -65,7 +65,7 @@ export default function Navbar(){
           <a
             href="#home"
             className="relative top-0.5 px-3 py-1 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
             border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
             transition-all duration-500 ease-out
             hover:from-white/20 hover:via-white/10 hover:to-white/20
@@ -76,7 +76,7 @@ export default function Navbar(){
           <a
             href="#about"
             className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
             border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
             transition-all duration-500 ease-out
             hover:from-white/20 hover:via-white/10 hover:to-white/20
@@ -87,7 +87,7 @@ export default function Navbar(){
           <a
             href="#skills"
             className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
             border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
             transition-all duration-500 ease-out
             hover:from-white/20 hover:via-white/10 hover:to-white/20
@@ -98,7 +98,7 @@ export default function Navbar(){
           <a
             href="#projects"
             className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
             border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
             transition-all duration-500 ease-out
             hover:from-white/20 hover:via-white/10 hover:to-white/20
@@ -107,15 +107,37 @@ export default function Navbar(){
             Projects
           </a>
           <a
-            href="#contact"
+            href="#certificates"
             className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
-            backdrop-blur-md bg-gradient-to-r from-white/10 via-white/5 to-white/10
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
             border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
             transition-all duration-500 ease-out
             hover:from-white/20 hover:via-white/10 hover:to-white/20
             hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
             >
-            Contact Me
+            Certificates
+          </a>
+          <a
+            href="#education"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Education
+          </a>
+          <a
+            href="#contact"
+            className="relative top-0.5 px-3 py-1 ml-3 rounded-xl font-semibold uppercase text-white/90
+            backdrop-blur-md bg-linear-to-r from-white/10 via-white/5 to-white/10
+            border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:from-white/20 hover:via-white/10 hover:to-white/20
+            hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+            >
+            Contact
           </a>
         </div>
         <div className="block ml-auto lg:ml-0">

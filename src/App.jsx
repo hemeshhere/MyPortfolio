@@ -10,6 +10,8 @@ import Testimonial from "./section/Testimonial";
 import CustomCursor from "./components/CustomCursor";
 import { useState } from "react";
 import IntroAnimation from "./components/IntroAnimation";
+import Certificates from "./section/Certificates";
+import Education from "./section/Education";
 export default function App(){
   const [introDone, setIntroDone]=useState(false);
   return(
@@ -26,6 +28,8 @@ export default function App(){
           <Projects/>
           {/* <Experience/>
           <Testimonial/> */}
+          <Certificates/>
+          <Education/>
           <Contact/>
           {/* <Footer/> */}
         </div>

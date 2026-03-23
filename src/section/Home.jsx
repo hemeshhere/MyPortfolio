@@ -49,7 +49,7 @@ const Home = () => {
           w-[70vw ]sm: w-[500vw] md:w-[40vw]
           h-[70vw ]sm: h-[500vw] md:h-[40vw]
           max-w-[500px] max-h-[500px] rounded-full
-          bg-gradient-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
+          bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
           opacity-30 md:opacity-10 sm:opacity-20  
           blur-[100px] sm:blur-[130px] md:blur-[150px]
           animate-pulse
@@ -62,7 +62,7 @@ const Home = () => {
           w-[70vw ]sm: w-[500vw] md:w-[40vw]
           h-[70vw ]sm: h-[500vw] md:h-[40vw]
           max-w-[500px] max-h-[500px] rounded-full
-          bg-gradient-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
+          bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
           opacity-30 md:opacity-10 sm:opacity-20  
           blur-[100px] sm:blur-[130px] md:blur-[150px]
           animate-pulse"
@@ -87,7 +87,7 @@ const Home = () => {
               <span className="inline-block w-0.5 ml-1 bg-white animate-pulse align-middle" style={{height:"1em"}}></span>
             </motion.div>
             <motion.h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text
-              bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg"
+              bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg"
               initial={{opacity:0 , y:40}}
               animate={{opacity:1, y:0}}
               transition={{duration:1}}  
@@ -145,7 +145,7 @@ const Home = () => {
         <div className="relative hidden lg:block">
           <div className="absolute top-0.5 -translate-y-0.5 pointer-events-none"
           style={{right:"10px", width:"min(22vw, 410px)", height:"min(40vw, 760px)", borderRadius:"50%", 
-            filter:"blur(38px)", opacity:0.32, background:"circle-gradient(from 0deg, #1cd8d2, #00bf8f, #302b63,#1cd8d2)"
+            filter:"blur(38px)", opacity:0.32, background:"circle-linear(from 0deg, #1cd8d2, #00bf8f, #302b63,#1cd8d2)"
           }}
           >
 

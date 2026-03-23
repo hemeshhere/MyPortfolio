@@ -58,16 +58,16 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#000000] via-[#03161f] to-[#042c3a] text-white overflow-hidden px-6 py-16"
+      className="relative min-h-screen flex items-center justify-center bg-linear-to-br from-[#000000] via-[#03161f] to-[#042c3a] text-white overflow-hidden px-6 py-16"
     >
       {/* Particle Background */}
       <ParticlesBackground />
 
       {/* Glowing teal blob (mobile background accent) */}
-      <div className="absolute md:hidden left-1/2 top-32 -translate-x-1/2 w-72 h-72 bg-gradient-to-r from-[#14b8a6]/30 to-[#0ea5e9]/30 blur-[120px] rounded-full opacity-60 animate-pulse"></div>
+      <div className="absolute md:hidden left-1/2 top-32 -translate-x-1/2 w-72 h-72 bg-linear-to-r from-[#14b8a6]/30 to-[#0ea5e9]/30 blur-[120px] rounded-full opacity-60 animate-pulse"></div>
 
       {/* Contact Container */}
-      <div className="relative z-10 w-full max-w-5xl flex flex-col md:flex-row items-center justify-between bg-gradient-to-br from-[#0b0f12]/80 to-[#0b1a1a]/70 backdrop-blur-lg border border-[#14b8a6]/20 rounded-3xl shadow-[0_0_30px_rgba(20,184,166,0.2)] p-8 md:p-12 transition-all duration-500 hover:shadow-[0_0_60px_rgba(20,184,166,0.3)]">
+      <div className="relative z-10 w-full max-w-5xl flex flex-col md:flex-row items-center justify-between bg-linear-to-br from-[#0b0f12]/80 to-[#0b1a1a]/70 backdrop-blur-lg border border-[#14b8a6]/20 rounded-3xl shadow-[0_0_30px_rgba(20,184,166,0.2)] p-8 md:p-12 transition-all duration-500 hover:shadow-[0_0_60px_rgba(20,184,166,0.3)]">
 
         {/* Left Image (hidden on small screens) */}
         <div className="hidden md:flex justify-center md:w-1/2 w-full mb-10 md:mb-0">
@@ -84,7 +84,7 @@ const Contact = () => {
           onSubmit={sendEmail}
           className="flex flex-col gap-5 w-full md:w-1/2 fade-in"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] bg-clip-text text-transparent mb-3">
+          <h2 className="text-4xl md:text-5xl font-extrabold bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] bg-clip-text text-transparent mb-3">
             Let’s Work Together
           </h2>
 
@@ -121,7 +121,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-gradient-to-r from-[#14b8a6] to-[#0ea5e9] hover:from-[#0ea5e9] hover:to-[#14b8a6] text-white font-semibold py-3 rounded-lg mt-2 transition-all duration-300 shadow-[0_0_20px_rgba(20,184,166,0.4)] hover:shadow-[0_0_40px_rgba(20,184,166,0.6)] disabled:opacity-50 text-sm md:text-base"
+            className="bg-linear-to-r from-[#14b8a6] to-[#0ea5e9] hover:from-[#0ea5e9] hover:to-[#14b8a6] text-white font-semibold py-3 rounded-lg mt-2 transition-all duration-300 shadow-[0_0_20px_rgba(20,184,166,0.4)] hover:shadow-[0_0_40px_rgba(20,184,166,0.6)] disabled:opacity-50 text-sm md:text-base"
           >
             {loading ? "Sending..." : "Send Message"}
           </button>

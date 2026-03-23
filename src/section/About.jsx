@@ -16,7 +16,7 @@ const About = () => {
     <section id='about' className='w-full min-h-screen flex items-center justify-center relative bg-black text-white overflow-hidden'>
       <div className='absolute inset-0 pointer-events-none'>
         {glows.map((c,i)=>(
-          <div key={i} style={{ animationDelay: `${i * 0.4}s` }} className={`absolute rounded-full bg-gradient-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2] animate-pulse ${c} `}/>
+          <div key={i} style={{ animationDelay: `${i * 0.4}s` }} className={`absolute rounded-full bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2] animate-pulse ${c} `}/>
         ))}
       </div>
       <div className=' z-10 max-w-6xl w-full mx-auto px-6 md:px-10 lg:px-10 py-20 flex flex-col gap-12'>
@@ -29,17 +29,17 @@ const About = () => {
           <motion.div
             className="relative -mt-6 md:-mt-10 w-44 h-34 md:w-[220px] md:h-[220px] rounded-full overflow-hidden 
             shadow-[0_0_25px_rgba(28,216,210,0.4)] border-2 border-[#1cd8d2]/60 
-            bg-gradient-to-br from-[#1cd8d2]/10 to-[#302b63]/10"
+            bg-linear-to-br from-[#1cd8d2]/10 to-[#302b63]/10"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 200, damping: 18 }}
           >
             <img src={boy} alt="profile" className="w-full h-full object-cover rounded-full" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-full"></div>
+            <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent rounded-full"></div>
           </motion.div>
 
           <div className='flex-1 flex flex-col justify-center text-center md:text-left '>
             <h2 className='text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent
-              bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2] 
+              bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2] 
             '>
             Hemesh Raj
             </h2>
